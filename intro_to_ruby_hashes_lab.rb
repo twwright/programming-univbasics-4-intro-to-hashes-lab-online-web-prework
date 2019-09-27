@@ -4,7 +4,7 @@ end
 
 def my_hash
   my_hash = {
-    name: "Thomas"
+    name: "Thomas",
     age: 29
 }
 end
@@ -22,8 +22,8 @@ def id_generator
 end
 
 def my_hash_creator(key, value)
-  my_hash_creator = {
-    key: value
+  {
+  key: value
 }
 end
 
@@ -36,4 +36,5 @@ def update_counting_hash(hash, key)
     hash[key] += 1
   else
     hash[key] = 1
+  end
 end
