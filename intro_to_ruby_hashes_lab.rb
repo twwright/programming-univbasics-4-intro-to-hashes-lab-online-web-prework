@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 def new_hash
   new_hash = Hash.new
 end
@@ -37,3 +38,5 @@ def update_counting_hash(hash, key)
   end
   hash
 end
+=======
+>>>>>>> 5c5aaebd6e112a1cdee31ed9709b5ae169040dae
